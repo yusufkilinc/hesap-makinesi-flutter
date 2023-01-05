@@ -22,6 +22,7 @@ class _CalculatorState extends State<Calculator> {
   //Button Widget
   Widget calcbutton(String btntxt, Color btncolor, Color txtcolor) {
     return Container(
+      color: Colors.amber,
       child: ElevatedButton(
         onPressed: () {
           calculation(btntxt);
